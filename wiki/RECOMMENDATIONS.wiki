@@ -1,0 +1,1 @@
+  * Name your tables in singular form for better looking, e.g. post/category instead of Posts/Categories
