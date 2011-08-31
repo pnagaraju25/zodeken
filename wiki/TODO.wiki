@@ -5,6 +5,7 @@
   * Allow to change base class of forms instead of preset Zodeken_Form
   * Automatically check to add autoloader namespace into application.ini
   * Store Zodeken options (base classes, package name...) into project's application.ini file
+  * Add "maxlength" attribute to form elements that have length limit
 
 === Planned features for unplanned version ===
   * Support other major database engines, not just MySQL
