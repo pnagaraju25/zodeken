@@ -1,0 +1,10 @@
+#TODO List
+
+=== To be added in 1.1 release ===
+  * Add options to generate controllers and views
+  * Allow to change base class of forms instead of preset Zodeken_Form
+  * Automatically check to add autoloader namespace into application.ini
+  * Store Zodeken options (base classes, package name...) into project's application.ini file
+
+=== Planned features for unplanned version ===
+  * Support other major database engines, not just MySQL
