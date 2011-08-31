@@ -1,3 +1,4 @@
+#labels Featured
 1. Get the latest version
 {{{
 svn checkout http://zodeken.googlecode.com/svn/trunk/ mylib
