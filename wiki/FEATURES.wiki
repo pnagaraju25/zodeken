@@ -38,6 +38,10 @@ varchar/char... -> text, text/longtext... -> textarea, foreign key -> select...
 
 - Adds validators and filters depending on data type of the field.
 
+For example, 
+  * If the column is marked as "Not Null", `->setRequired(true)` will be added to the form element
+  * If the column is VARCHAR(100), `->addValidator(new Zend_Validate_StringLength(array("max" => 100)))` will be added to the form
+
 - Adds a drop-down list for a foreign key field to the form:
 <code language="php">
     $tableCategory = new Application_Model_DbTable_Category();
