@@ -1,1 +1,2 @@
   * Name your tables in singular form for better looking, e.g. post/category instead of Posts/Categories
+  * Put the primary key column at the first position of the database table and the title/name/label etc... at the second place. This helps $dbTable->fetchPairs() work properly.
