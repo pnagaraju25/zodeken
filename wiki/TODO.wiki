@@ -9,7 +9,7 @@
   * Automatically check to add autoloader namespace into application.ini
   * Store Zodeken options (base classes, package name...) into project's application.ini file ([zodeken] section)
   * Add "maxlength" attribute to form elements that have length limit
-  * Add getTableName() method to DbTable
+  * ~~Add getTableName() method to DbTable~~ (already added in 1.0.1)
   * Add option to cache table's Metadata
 
 === Planned features for unplanned version ===
