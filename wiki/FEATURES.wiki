@@ -31,11 +31,10 @@ key => value pairs), fetchOne (value of first column's first field), fetchOnes
 - Detects the relationships between the tables and generates basically necessary
 methods.
 
-  * One-to-many: `$memberRow->getPostRows()`, `$postRow->getMemberRow()`
-  * Many-to-many: `$tagRow->getPostRows()`, `$postRow->getTagRows()`
+  * One-to-many: `$memberRow->getPostRowsByPosterId()`, `$postRow->getMemberRowByPosterId()`
+  * Many-to-many: `$tagRow->getPostRowset()`, `$postRow->getTagRowset()`
     
-- Uses proper form element for each data type. For example: enum/set -> radio,
-varchar/char... -> text, text/longtext... -> textarea, foreign key -> select...
+- Uses proper form element for each data type. For example: enum/set -> radio, varchar/char... -> text, text/longtext... -> textarea, foreign key -> select...
 
 - Adds validators and filters depending on data type of the field.
 
