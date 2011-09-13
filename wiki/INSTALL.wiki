@@ -1,7 +1,7 @@
 #labels Featured
 1. Get the latest version
 {{{
-svn checkout http://zodeken.googlecode.com/svn/trunk/ mylib
+svn checkout http://zodeken.googlecode.com/svn/tags/release-latest mylib
 }}}
 
 2. Place the folder Zodeken into a folder that covered by your include_path
