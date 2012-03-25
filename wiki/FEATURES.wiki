@@ -1,6 +1,8 @@
 #labels Featured
 - Supports only MySQL.
 
+- Generates Controllers with CRUD actions, Db_Tables, DbTable_Rows, DbTable_Rowsets with DocBlock tags that gives you autocompletion when coding in an IDE.
+
 - Generates DbTables, DbTable_Rows, DbTable_Rowsets with DocBlock tags that gives you autocompletion when coding in an IDE.
 
 - Defines DbTable relationships following InnoDB's relationships.
