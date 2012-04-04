@@ -63,4 +63,4 @@ For example, the 'post' table links to the 'category' table and the referenceMap
 type_arguments: (optional) type arguments (similary to the '2' index of the 'type')
   * *hasMany:* (optional) this is quite complex, I will not explain this temporarily
 
-With the above structure, hope that you will can easily change the templates and configs for it to meet your needs.
+With the above structure, hope that you can easily change the templates and configs for it to meet your needs.
