@@ -12,7 +12,7 @@ This file contains a list of 'output' element, each of them represents a file th
     * *{TABLE_CONTROLLER_NAME}:* the ZF-compatible controller name, for example posts-tags for the table posts_tags
 
 == The $tableDefinition variable ==
-Each template file is passed with the $tableDefinition variable, this is an associative array consisting of these elements (there is somewhat inconsistency of naming convention here, please do not blame me, just ignore it :P):
+Each template file is passed with the $tableDefinition variable, this is an associative array consisting of these elements:
   * *name:* the original name of the table
   * *className:* the table class name, e.g. Application_Model_Post_DbTable
   * *classNameAbstract:* the abstract class name of the table, e.g. Application_Model_Post_DbTable_Abstract
