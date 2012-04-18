@@ -1,7 +1,7 @@
 #TODO List
 === To be added in 1.3 release ===
   * Add Form's elements (checkboxes) to edit many-to-many records
-  * Allow customizing output filenames and class name templates, this helps generating any file as wanted
+  * ~~Allow customizing output filenames and class name templates, this helps generating any file as wanted~~
 
 === To be added in 1.2 release ===
   * ~~Add options to generate controllers and views~~
